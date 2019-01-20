@@ -140,3 +140,60 @@ a {
 .about-link + .about-link {
 	margin-left: 32px;
 }
+
+/* -------- ABOUT -------- */
+#work {
+	height: 100%;
+}
+
+#work .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#work-content {
+	width: 100%;
+}
+
+#work-left {
+	float: left;
+	width: 47%;
+}
+
+#work-right {
+	float: right;
+	width: 47%;
+}
+
+#work-type {
+	font-size: 40px;
+	color: #5049BE;
+	margin-bottom: 10px;
+}
+
+.work-item {
+	font-size: 20px;
+}
+
+.work-item + .work-item {
+	margin-top: 20px;
+}
+
+.work-item-name {
+	font-weight: 700;
+	color: #2F2B71;
+}
+
+.work-item-org {
+	color: #5049BE;
+}
+
+.work-item-date {
+	font-weight: 700;
+	color: #958EFF;
+}
+
+.work-item-description {
+	margin-top: 10px;
+}
