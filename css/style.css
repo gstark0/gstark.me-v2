@@ -141,9 +141,9 @@ a {
 	margin-left: 32px;
 }
 
-/* -------- ABOUT -------- */
+/* -------- WORK -------- */
 #work {
-	height: 100%;
+	height: 900px;
 }
 
 #work .container {
@@ -166,7 +166,7 @@ a {
 	width: 47%;
 }
 
-#work-type {
+.work-type {
 	font-size: 40px;
 	color: #5049BE;
 	margin-bottom: 10px;
@@ -177,6 +177,10 @@ a {
 }
 
 .work-item + .work-item {
+	margin-top: 20px;
+}
+
+.work-item + .work-type {
 	margin-top: 20px;
 }
 
@@ -196,4 +200,15 @@ a {
 
 .work-item-description {
 	margin-top: 10px;
+}
+
+/* -------- FOOTER -------- */
+#footer {
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	background-color: #F2F2F2; /* Does it look good? */
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
