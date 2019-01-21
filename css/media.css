@@ -1,0 +1,74 @@
+@media only screen and (max-width: 1130px) {
+	.container {
+		max-width: 900px;
+	}
+}
+
+@media only screen and (min-width: 1131px) and (max-width: 1330px) {
+	.container {
+		max-width: 1100px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#navbar-menu {
+		display: none;
+	}
+
+	#navbar {
+		text-align: center;
+	}
+
+	#logo {
+		float: unset;
+	}
+
+	.container {
+		width: 90%;
+		margin: auto;
+	}
+
+	#main-container {
+		display: inline;
+	}
+
+	#main-header {
+		font-size: 40px;
+	}
+
+	#main-left {
+		width: 100%;
+		float: unset;
+	}
+
+	#main-right {
+		width: 100%;
+		float: unset;
+	}
+
+	#about-left {
+		float: unset;
+		width: 100%;
+		display: inline;
+	}
+
+	#about-right {
+		display: none;
+	}
+
+	#about {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		height: unset;
+	}
+
+	#work {
+		height: unset;
+		margin-top: 60px;
+	}
+
+	#footer {
+		margin-top: 60px;
+		font-size: 16px;
+	}
+}
