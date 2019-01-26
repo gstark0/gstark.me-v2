@@ -182,7 +182,7 @@ html, body {
 
 /* -------- WORK -------- */
 #work {
-	height: 1200px;
+	height: 1000px;
 }
 
 #work .container {
@@ -220,7 +220,7 @@ html, body {
 }
 
 .work-item + .work-type {
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 .work-item-name {
@@ -239,14 +239,16 @@ html, body {
 
 .work-item-description {
 	margin-top: 10px;
+	/* text-align: justify; */
 }
 
 /* -------- FOOTER -------- */
 #footer {
 	width: 100%;
-	height: 50px;
-	font-size: 20px;
+	height: 40px;
+	font-size: 18px;
 	background-color: #F2F2F2; /* Does it look good? */
+	color: gray;
 	display: flex;
 	justify-content: center;
 	align-items: center;
